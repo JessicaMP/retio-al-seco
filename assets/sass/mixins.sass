@@ -1,0 +1,67 @@
+$through: 600
+
+@for $i from 1 through $through
+    .z-index-#{$i}
+        z-index: #{$i}
+    .font__size__#{$i}
+        font-size: #{$i}px
+    .width__#{$i}
+        width: #{$i}#{'%'}
+    // .width_vh_#{$i}
+    //     width: #{$i}#{'vh'} !important
+    // .max__width__#{$i}
+    //     max-width: #{$i}px !important
+    // .min__width__#{$i}
+    //     min-width: #{$i}px !important
+    // .min__height__#{$i}
+    //     min-height: #{$i}px !important
+    // .max__height__#{$i}
+    //     max-height: #{$i}px !important
+    // .height__#{$i}
+    //     height: #{$i}#{'%'}
+    // .height__specific__#{$i}
+    //     height: #{$i}px
+$sizes: 100
+
+@mixin margin-classes
+@for $i from 0 through $sizes
+    $margin: #{$i}rem
+    .m-#{$i}
+        margin: $margin
+    .ml-#{$i}
+        margin-left: $margin
+    .mr-#{$i}
+        margin-right: $margin
+    .mt-#{$i}
+        margin-top: $margin
+    .mb-#{$i}
+        margin-bottom: $margin
+    .mx-#{$i}
+        margin-left: $margin
+        margin-right: $margin
+    .my-#{$i}
+        margin-top: $margin
+        margin-bottom: $margin
+@include margin-classes
+
+
+@mixin padding-classes
+@for $i from 0 through $sizes
+    $padding: #{$i}rem
+    .p-#{$i}
+        padding: $padding
+    .pl-#{$i}
+        padding-left: $padding
+    .pr-#{$i}
+        padding-right: $padding
+    .pt-#{$i}
+        padding-top: $padding
+    .pb-#{$i}
+        padding-bottom: $padding
+    .px-#{$i}
+        padding-left: $padding
+        padding-right: $padding
+    .py-#{$i}
+        padding-top: $padding
+        padding-bottom: $padding
+@include padding-classes
