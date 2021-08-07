@@ -1,5 +1,5 @@
 <template lang="pug">
-.grid.mx-2
+.grid.mx-2.my-1
     .grid-lg-7
         img(src=`~/assets/images/logo.svg` alt="Logo")
     .grid-lg-5
