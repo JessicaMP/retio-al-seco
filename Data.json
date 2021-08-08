@@ -1,0 +1,59 @@
+{
+	"products": [{
+			"title": "Kalís Boti online",
+			"schedule": "De 10 a 22hrs",
+			"shippingCost": "2000",
+			"delivery": "Si",
+			"shippingTime": "45 minutos"
+		},
+		{
+			"title": "Kalís Boti online",
+			"schedule": "De 10 a 22hrs",
+			"shippingCost": "2000",
+			"delivery": "Si",
+			"shippingTime": "45 minutos"
+		},
+		{
+			"title": "Kalís Boti online",
+			"schedule": "De 10 a 22hrs",
+			"shippingCost": "2000",
+			"delivery": "Si",
+			"shippingTime": "45 minutos"
+		},
+		{
+			"title": "Kalís Boti online",
+			"schedule": "De 10 a 22hrs",
+			"shippingCost": "2000",
+			"delivery": "Si",
+			"shippingTime": "45 minutos"
+		},
+		{
+			"title": "Kalís Boti online",
+			"schedule": "De 10 a 22hrs",
+			"shippingCost": "2000",
+			"delivery": "Si",
+			"shippingTime": "45 minutos"
+		},
+		{
+			"title": "Kalís Boti online",
+			"schedule": "De 10 a 22hrs",
+			"shippingCost": "2000",
+			"delivery": "Si",
+			"shippingTime": "45 minutos"
+		},
+		{
+			"title": "Kalís Boti online",
+			"schedule": "De 10 a 22hrs",
+			"shippingCost": "2000",
+			"delivery": "Si",
+			"shippingTime": "45 minutos"
+		},
+        {
+			"title": "Kalís Boti online",
+			"schedule": "De 10 a 22hrs",
+			"shippingCost": "2000",
+			"delivery": "Si",
+			"shippingTime": "45 minutos"
+		}
+	]
+}
