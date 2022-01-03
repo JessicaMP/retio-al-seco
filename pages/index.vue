@@ -1,8 +1,8 @@
 <template lang="pug">
   .mx-0
     Header
-    Body
-    Footer
+    //- Body
+    //- Footer
 </template>
 
 <script>

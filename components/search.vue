@@ -1,12 +1,20 @@
 <template lang="pug">
+//- .search__style
+//-     .grid.px-1
+//-         .grid-11
+//-             input.mx-1.width__100(
+//-                 type="search"
+//-                 placeholder="Busca tu producto")
+//-         .grid-1
+//-             img(src=`~/assets/icons/search.svg` alt="Icon select")
+
 .search__style
-    .grid.px-1
-        .grid-11
-            input.mx-1.width__100(
-                type="search"
-                placeholder="Busca tu producto")
-        .grid-1
-            img(src=`~/assets/icons/search.svg` alt="Icon select")
+    .row.px-1
+        input.mx-1.width__90(
+            type="search"
+            placeholder="Busca tu producto")
+
+        img.width__10(src=`~/assets/icons/search.svg` alt="Icon select")
 </template>
 <script>
 export default {

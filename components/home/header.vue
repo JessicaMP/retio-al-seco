@@ -1,15 +1,29 @@
 <template lang="pug">
-.grid.mx-2.my-1
-    .grid-lg-7
+//- .grid.mx-2.my-1
+//-     .grid-lg-7
+//-         img(src=`~/assets/icons/logo.svg` alt="Logo")
+//-     .grid-lg-5
+//-         .grid
+//-             .grid-lg-6.border__style
+//-                 .d-flex.justify-center
+//-                     img(src=`~/assets/icons/find-column.svg` alt="Icon select")
+//-                     p.mx-1 Seleccionar tu comuna
+//-                     img(src=`~/assets/icons/arrow-down.svg` alt="Icon select")
+//-             .grid-lg-6
+//-                 Search
+//- .container-fluid
+.row.my-1
+    .col-lg-7.col-sm-6
         img(src=`~/assets/icons/logo.svg` alt="Logo")
-    .grid-lg-5
-        .grid
-            .grid-lg-6.border__style
+    .col-lg-5.col-sm-6
+        Search.show-sm
+        .row.hidden-sm
+            .col-lg-6.border__style
                 .d-flex.justify-center
                     img(src=`~/assets/icons/find-column.svg` alt="Icon select")
                     p.mx-1 Seleccionar tu comuna
                     img(src=`~/assets/icons/arrow-down.svg` alt="Icon select")
-            .grid-lg-6
+            .col-lg-6
                 Search
 </template>
 <script>
